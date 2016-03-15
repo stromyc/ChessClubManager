@@ -13,6 +13,7 @@
 		7F9259F21C9895AD00DEA49D /* ChessClubManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F9259F01C9895AD00DEA49D /* ChessClubManager.xcdatamodeld */; };
 		7F9259F41C9895AD00DEA49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9259F31C9895AD00DEA49D /* Assets.xcassets */; };
 		7F9259F71C9895AD00DEA49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9259F51C9895AD00DEA49D /* LaunchScreen.storyboard */; };
+		7F9259FF1C989A0600DEA49D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9259FE1C989A0600DEA49D /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F9259F31C9895AD00DEA49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F9259F61C9895AD00DEA49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F9259F81C9895AD00DEA49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9259FE1C989A0600DEA49D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7F9259F51C9895AD00DEA49D /* LaunchScreen.storyboard */,
 				7F9259F81C9895AD00DEA49D /* Info.plist */,
 				7F9259F01C9895AD00DEA49D /* ChessClubManager.xcdatamodeld */,
+				7F9259FE1C989A0600DEA49D /* Player.swift */,
 			);
 			path = ChessClubManager;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9259FF1C989A0600DEA49D /* Player.swift in Sources */,
 				7F9259F21C9895AD00DEA49D /* ChessClubManager.xcdatamodeld in Sources */,
 				7F9259EC1C9895AD00DEA49D /* ViewController.swift in Sources */,
 				7F9259EA1C9895AD00DEA49D /* AppDelegate.swift in Sources */,
